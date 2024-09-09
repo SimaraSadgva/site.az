@@ -1,0 +1,271 @@
+*{ margin: 0;padding: 0;box-sizing: border-box;}
+:root{--mor: #a271f2; --qara: rgb(48 11 96 );--boz: #f8f8fa ;--tundboz: #eeeef1;}
+#navA:hover{color: var(--mor);}
+#navB{color: #c2bfbf;}
+.dmDollarFlag {display: none;}
+#navA{ font-weight: 500; font-size: 1.1rem;color: var(--qara); }
+#btnSearch1{  color: white; background: radial-gradient(circle, rgb(167, 88, 231) 0%, rgb(240, 198, 222) 100%);padding: 0 3px;}
+#btnSearch2{ color: var(--mor); border: 1px solid var(--mor);}
+#btnSearch1,#btnSearch2 { font-size: 18px;font-weight: 500; margin-right: 10px;}
+#navContainer{padding-top: 15px;}
+.navbar-nav{ padding:0 40px; gap: 20px;}
+.navbar-brand img{max-width: 90px;margin-left: 5px;}
+.flag{width: 25px;height: 30px;}
+.flagUl{margin-left: 70px;}
+.dropdown-item{color: var(--mor);}
+.dropdown-menu img{width: 30px;}
+.dmDollarFlag {padding: 20px;padding-left: 40px;}
+.basliqlar {display: flex;}
+.navbar-toggler.collapsed ~ .basliqlar,.navbar-toggler.collapsed ~ .navbar-brand {display: none;}
+.navbar-toggler:not(.collapsed) ~ .Desktop-dmDollarFlag,.navbar-toggler:not(.collapsed) ~ .navbar-brand {display: none;}
+.dropdownimg{display: none;}
+.dropdownSpan{font-size: 14px;color: #d8bef5;padding-left: 16px;}
+.dmDollar{font-size: 19px;}  
+.qiymetTeklif{background-color: var(--tundboz) ;margin-top: 40px;}
+.qiymet{ padding: 20px; background-color: white; margin-top: 40px;}
+.qiymet h1{font-weight: 700; font-size: 3rem;padding-bottom: 30px;}
+.statikCedvel{background-color: var(--boz);}
+.statikCedvel p{padding: 10px ;}
+.range1{display: flex; margin-bottom: 20px;align-items: center;justify-content: center;}
+.formRange{color: var(--mor); max-width: 200px;}
+.btnRange1{background-color: var(--mor);padding:0 8px; border: 0; border-radius: 7px; color: white; margin-right: 5px;}
+.btnRange20{background-color: var(--mor);padding:0 6px; border: 0; border-radius: 7px; color: white; margin-left: 5px;}
+.dizayn3lu{display: flex; justify-content: space-around;}
+.dizaynXerc{background-color:#4a84bf26;font-weight: 600;border-radius: 8px; padding: 12px;margin-top: 20px;display: flex; justify-content: space-between;color: rgb(37, 134, 81);}
+.sehifeMan{color: var(--mor);font-weight: 700; font-size: 22px;}
+.statikSehifelerTeklif{display: flex; justify-content: space-between;}
+.teklif h6{padding: 20px 0;}
+.teklif{background-color: white;padding: 20px; margin-top: 40px;}
+.teklifYazi{color: rgb(177, 171, 171);padding-bottom: 20px; font-size: 18px;}
+.teklifPul{color: var(--mor);font-weight: 700; font-size: 18px;}
+.statikSehifelerTeklifLogo{border-bottom: 1px solid rgb(219, 216, 216);padding-bottom: 10px;display: flex; justify-content: space-between;}
+.QeydYazi {color: rgb(107, 107, 107);font-weight: 700;}
+.QeydPul{color: gray;}
+.statikSehifelerTeklifQeyd{display: flex;padding: 15px 0; justify-content: space-between;}
+.umumiMebleg{background-color: var(--mor); color: white; font-size: 25px;padding: 25px 12px; font-weight: 400;}
+.umumiMeblegFlex{display: flex;justify-content: space-between;}
+.saytSifaris{background-color: #2BC48A;cursor: pointer;text-align: center;color: white; font-size: 16px; font-weight: 600;border-radius: 8px; margin-top: 7px;padding: 1px 0;padding-top: 6px;}
+.vebSaytCedvel{background-color: var(--boz); margin-top: 20px  ;}
+.vebSaytElaveler { margin-top: 50px;}
+.vebSaytXerc{background-color: #4a84bf26;font-weight: 600;border-radius: 8px; padding: 12px;display: flex; justify-content: space-between;color: rgb(37, 134, 81);}
+.vebSaytMan{color: var(--mor);font-weight: 700; font-size: 24px;}
+.axtarisMotoCedvel{background-color: var(--boz); margin-top: 20px  ;padding-left: 30px; }
+.vebSaytCedvel .form-check { display: flex;justify-content: space-between;padding: 8px; color: purple; font-weight: 600;}
+.axtarisMotoCedvel .form-check { display: flex;padding: 8px; color: purple; font-weight: 600;}
+.vebSaytCedvel  .form-check-input { width: 40px; height: 19px;}
+.axtarisMotoCedvel  .form-check-input { width: 20px; height: 20px;}
+.form-check-input:checked {background-color: purple;border-color: purple;}
+.form-check-input:focus { box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.25); }
+.form-check-input:checked::before { background-color: purple; }
+.axtarisMotoCedvel .form-check-label{padding-left: 10px;}
+.logoDizaynCedvel{background-color: var(--boz); margin-top: 20px  ;}
+.logoDizayn { margin-top: 50px;}
+#flag{width: 40px;height: 30px;margin: 0 10px;}
+.form-range { width: 100%; height: 8px;background: #ddd; border-radius: 5px;  opacity: 0.7;  transition: opacity .2s;}
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px; 
+    background: var(--mor);
+    border-radius: 50%; 
+    cursor: pointer; 
+}
+.teklif{ max-height: 200vh;}
+.logoDizaynCedvel input{margin-bottom: 50px;}
+.qiymetTeklif{display: flex !important; flex-direction: column;}
+#footr{margin-top: 60px;}
+.fText1{color: var(--qara);padding-top: 10px;}
+.footerSection{background-color: #fbfafc;margin-top: 60px;}
+.footerTop, .footerTop2{padding: 20px;color: var(--qara);}
+.footerTop2 h2{font-size: 32px;font-weight: 700;padding-top: 40px;text-transform: uppercase;}
+.footerTop2 p{font-size: 20px;font-weight: 500;cursor: pointer;}
+.footerTop2 p:hover{color: #8a2ba1;}
+.footerTop img{padding: 20px 0; width: 80%;}
+.footerTop h6{font-size: 17px; font-weight: 700; padding: 20px 0;}
+.sosials {display: flex; gap: 14px;}
+.sosials i { font-size: 30px; color: var(--mor);transition: color 0.3s;}
+.sosials i:hover { color: #8a2ba1;}
+hr{width: 100%;color: #a8a6a6;}
+.ftElaqe{font-size: 17px;color: #75238a;padding: 20px 0;}
+.footerBottom{padding-left: 10px;}
+.footerBottom span{font-size: 17px;color: #75238a}
+.call{margin-right: 15px;border-right: 1px solid #dddcdc;padding-right: 10px;}
+.Desktop-dmDollarFlag ol,ul{ margin-top: 0;margin-bottom: initial;padding-left: 10px;}
+.navbar>.container-fluid{display: flex;justify-content: space-around;}
+.container-fluid{--bs-gutter-x:initial;}
+.navbar-toggler {padding: 3px;font-size: 18px;}
+.navbar-toggler:focus {box-shadow: initial; } 
+.Desktop-dmDollarFlag{padding-top: 10px;}   
+.container {--bs-gutter-x: initial;}
+@media screen and (max-width: 1090px) { html  { overflow-x: hidden; } }
+.teklif {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    margin-left: 50px ;
+    position: sticky !important;
+    top: 0 !important; 
+    max-height: 100vh ;
+    overflow: hidden; 
+  }
+  
+  .teklif h6 {
+    padding: 20px 0;
+  }
+  
+  .teklifYazi {
+    color: rgb(177, 171, 171);
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .teklifPul {
+    color: var(--mor);
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+ 
+.popup {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(214, 212, 224, 0.8); 
+  z-index: 1000; 
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup-content {
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px; 
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Close button */
+.div-baqla {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.div-baqla button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #5d0c83;
+}
+.div-baqla button:hover { color: #e4bef3;}
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+button {
+  background-color: #6f3381;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover { background-color: #ac499b;}
+button i {margin-left: 8px;}
+.popup.show {opacity: 1;visibility: visible;}
+
+
+
+
+
+
+
+
+  @media (max-width: 767px) {
+    .teklif {
+      width: 100%; 
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .teklifYazi {
+      font-size: 16px; 
+    }
+  
+    .teklifPul {
+      font-size: 16px;
+    }
+  }
+@media only screen and (min-width: 768px){
+    .qiymetTeklif{flex-direction: row; position: relative!important;}
+    .dizaynFlex{display: flex;}
+    .dizayn3lu{display: flex; justify-content: space-between;}
+    .dMurekkeb{margin-top: 30px; margin-right: 50px;}
+    #customRange4{width: 300px}
+    .qiymet{width: 60%; }
+    .teklif{background-color: white;padding: 20px; width: 30% ; margin-left: 50px; max-height: 100vh; position: sticky!important;}
+    .vebSaytCedvel1{width: 50%;}
+    .vebSaytCedvel2{width: 50%;}
+    .vebSaytCedvel{display: flex;}
+    .axtarisMotoCedvel{display: flex;}
+    .customRangeStep{width: 400px;}
+    .teklifiniz{position: sticky;}
+    .qiymet{ margin-left: 30px; }
+    .footerTopBoss{display: flex;}
+    .footerTop{max-width: 50%; padding: 70px ;}
+    .footerTop2{max-width: 50%; padding: 70px ;display: flex;}
+    .footerTop img{width: 40%;}
+    .sosials {display: flex; gap: 20px;}
+    .sosials i { font-size: 50px;transition: color 0.3s;}
+    .footerTop2 h2{font-size: 23px;font-weight: 700;padding-bottom: 15px;}
+    .footerTop2Host{margin-right: 60px;}
+    .footerBottom{display: flex;justify-content: space-between;align-items: center;flex-direction: row-reverse;}
+    .ftElaqe{display: flex; font-size: 17px;color: #75238a;padding: 20px 0;}
+    .Desktop-dmDollarFlag{display: none !important;}
+    .dmDollarFlag ol,ul{ margin-bottom: 1rem;}
+    .navbar-brand img{max-width: 400px;margin-left: 20px;}
+    .dmDollarFlag {margin-top: 20px;}
+    .dmDollarFlag {padding:initial;}
+    .dropdown-menu img{width: 30px !important;}
+    .dropdownimg {background-color: rgb(219 234 254);padding: 10px;border-radius: 10px;}
+    .dropdownimg{display: block;}
+    .dropdownSpan{font-size: 14px;color: #d8bef5;padding-left: 16px;}
+    .dropdownImgSpan{margin: 10px;}
+    .dropdown-menu { --bs-dropdown-min-width: initial; }
+    .dmDollar{font-size: 19px;margin-right: 10px;} 
+}
+
+  
+
+
+
